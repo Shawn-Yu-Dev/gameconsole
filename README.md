@@ -54,12 +54,13 @@ cd gameconsole
 chmod +x run.sh main.sh
 ```
 
-### 3. 一键编译并启动游戏
+### 3. 一键编译
 ```bash
 ./run.sh
 ```
 
 > **提示**：`run.sh` 会自动检测并创建 `build` 文件夹，执行 `cmake ..` 和 `make`，最后自动运行生成的可执行程序。
+>          `run.sh` 只会编译，如需运行请执行 `./main.sh`
 
 ---
 
