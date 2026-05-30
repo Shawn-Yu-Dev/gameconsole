@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/ncurses-arcade.dir/link.d "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o" -o /home/shawn/Documents/my_game_console/run/ncurses-arcade  -lcurses -lform

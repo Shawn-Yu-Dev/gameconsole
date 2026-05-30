@@ -1,0 +1,5 @@
+/home/shawn/Documents/my_game_console/build/CMakeFiles/tinytetris.dir
+/home/shawn/Documents/my_game_console/build/CMakeFiles/terminal-mines-single.dir
+/home/shawn/Documents/my_game_console/build/CMakeFiles/ncurses-arcade.dir
+/home/shawn/Documents/my_game_console/build/CMakeFiles/edit_cache.dir
+/home/shawn/Documents/my_game_console/build/CMakeFiles/rebuild_cache.dir
