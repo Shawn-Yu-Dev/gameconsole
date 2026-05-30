@@ -1,7 +1,5 @@
 # 🕹️ My Game Console
 
-[![GitHub release](https://shields.io)](https://github.com)
-[![License: MIT](https://shields.io)](https://opensource.org)
 
 一个基于 C++ 和 CMake 构建的轻量级游戏控制台项目。本项目的目标是在 Linux 终端环境下实现高性能、低延迟的游戏逻辑与渲染框架。
 
