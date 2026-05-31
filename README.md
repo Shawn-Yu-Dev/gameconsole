@@ -19,7 +19,7 @@
 my_game_console/
 ├── build/             # 编译生成目录（已在 .gitignore 中忽略）
 ├── src/               # 游戏核心源代码目录
-│   └── main.sh        # 主程序入口
+│   └──                # 游戏源码存放处
 ├── CMakeLists.txt     # CMake 配置文件
 ├── run.sh             # 一键编译并运行脚本
 ├── main.sh            # 核心启动脚本
