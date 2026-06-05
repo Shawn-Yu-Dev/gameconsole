@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/shawn/Documents/my_game_console/CMakeLists.txt"
+  "/home/shawn/my_game_console/CMakeLists.txt"
   "CMakeFiles/4.3.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeSystem.cmake"
@@ -151,4 +151,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tinytetris.dir/DependInfo.cmake"
   "CMakeFiles/terminal-mines-single.dir/DependInfo.cmake"
   "CMakeFiles/ncurses-arcade.dir/DependInfo.cmake"
+  "CMakeFiles/nsnake.dir/DependInfo.cmake"
   )

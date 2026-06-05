@@ -1,4 +1,4 @@
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: \
+/home/shawn/my_game_console/run/terminal-mines-single: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \

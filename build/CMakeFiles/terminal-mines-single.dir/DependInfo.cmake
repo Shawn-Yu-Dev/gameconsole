@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shawn/Documents/my_game_console/src/terminal-mines-single.c" "CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o" "gcc" "CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o.d"
-  "" "/home/shawn/Documents/my_game_console/run/terminal-mines-single" "gcc" "CMakeFiles/terminal-mines-single.dir/link.d"
+  "/home/shawn/my_game_console/src/terminal-mines-single.c" "CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o" "gcc" "CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o.d"
+  "" "/home/shawn/my_game_console/run/terminal-mines-single" "gcc" "CMakeFiles/terminal-mines-single.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

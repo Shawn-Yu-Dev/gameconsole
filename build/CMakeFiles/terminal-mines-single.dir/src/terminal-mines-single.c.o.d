@@ -1,5 +1,5 @@
 CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o: \
- /home/shawn/Documents/my_game_console/src/terminal-mines-single.c \
+ /home/shawn/my_game_console/src/terminal-mines-single.c \
  /usr/include/stdc-predef.h /usr/include/getopt.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \

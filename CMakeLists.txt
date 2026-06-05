@@ -27,15 +27,17 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/run)
 # 3. 精准、安全地添加两个独立单文件编译目标
 # ========================================================
 
-# 🎮 游戏 1：俄罗斯方块
+# 游戏 1
 add_executable(tinytetris src/tinytetris.cpp)
 target_link_libraries(tinytetris PRIVATE ${CURSES_LIBRARIES})
 
-# 🎮 游戏 2：全量单文件扫雷（没有任何外部依赖！）
+# 游戏 2
 add_executable(terminal-mines-single src/terminal-mines-single.c)
 target_link_libraries(terminal-mines-single PRIVATE ${CURSES_LIBRARIES})
 
-# 🎮 游戏 3：全量单文件街机框架（🌟 刚刚拷贝过来的新成员！）
+# 游戏 3
 add_executable(ncurses-arcade src/ncurses-arcade-single.c)
 target_link_libraries(ncurses-arcade PRIVATE ${CURSES_LIBRARIES})
 
+# 游戏 4
+add_executable(nsnake src/nsnake.cpp)

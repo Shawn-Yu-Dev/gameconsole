@@ -1,5 +1,5 @@
 CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o: \
- /home/shawn/Documents/my_game_console/src/tinytetris.cpp \
+ /home/shawn/my_game_console/src/tinytetris.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/16.1.1/ctime \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \

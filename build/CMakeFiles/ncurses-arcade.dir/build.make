@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shawn/Documents/my_game_console
+CMAKE_SOURCE_DIR = /home/shawn/my_game_console
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shawn/Documents/my_game_console/build
+CMAKE_BINARY_DIR = /home/shawn/my_game_console/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ncurses-arcade.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/ncurses-arcade.dir/codegen:
 .PHONY : CMakeFiles/ncurses-arcade.dir/codegen
 
 CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o: CMakeFiles/ncurses-arcade.dir/flags.make
-CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o: /home/shawn/Documents/my_game_console/src/ncurses-arcade-single.c
+CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o: /home/shawn/my_game_console/src/ncurses-arcade-single.c
 CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o: CMakeFiles/ncurses-arcade.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shawn/Documents/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o -MF CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o.d -o CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o -c /home/shawn/Documents/my_game_console/src/ncurses-arcade-single.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shawn/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o -MF CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o.d -o CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o -c /home/shawn/my_game_console/src/ncurses-arcade-single.c
 
 CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shawn/Documents/my_game_console/src/ncurses-arcade-single.c > CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shawn/my_game_console/src/ncurses-arcade-single.c > CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.i
 
 CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shawn/Documents/my_game_console/src/ncurses-arcade-single.c -o CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shawn/my_game_console/src/ncurses-arcade-single.c -o CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.s
 
 # Object files for target ncurses-arcade
 ncurses__arcade_OBJECTS = \
@@ -93,17 +93,17 @@ ncurses__arcade_OBJECTS = \
 # External object files for target ncurses-arcade
 ncurses__arcade_EXTERNAL_OBJECTS =
 
-/home/shawn/Documents/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o
-/home/shawn/Documents/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/build.make
-/home/shawn/Documents/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/compiler_depend.ts
-/home/shawn/Documents/my_game_console/run/ncurses-arcade: /usr/lib/libcurses.so
-/home/shawn/Documents/my_game_console/run/ncurses-arcade: /usr/lib/libform.so
-/home/shawn/Documents/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shawn/Documents/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/shawn/Documents/my_game_console/run/ncurses-arcade"
+/home/shawn/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o
+/home/shawn/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/build.make
+/home/shawn/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/compiler_depend.ts
+/home/shawn/my_game_console/run/ncurses-arcade: /usr/lib/libcurses.so
+/home/shawn/my_game_console/run/ncurses-arcade: /usr/lib/libform.so
+/home/shawn/my_game_console/run/ncurses-arcade: CMakeFiles/ncurses-arcade.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shawn/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/shawn/my_game_console/run/ncurses-arcade"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncurses-arcade.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ncurses-arcade.dir/build: /home/shawn/Documents/my_game_console/run/ncurses-arcade
+CMakeFiles/ncurses-arcade.dir/build: /home/shawn/my_game_console/run/ncurses-arcade
 .PHONY : CMakeFiles/ncurses-arcade.dir/build
 
 CMakeFiles/ncurses-arcade.dir/clean:
@@ -111,6 +111,6 @@ CMakeFiles/ncurses-arcade.dir/clean:
 .PHONY : CMakeFiles/ncurses-arcade.dir/clean
 
 CMakeFiles/ncurses-arcade.dir/depend:
-	cd /home/shawn/Documents/my_game_console/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shawn/Documents/my_game_console /home/shawn/Documents/my_game_console /home/shawn/Documents/my_game_console/build /home/shawn/Documents/my_game_console/build /home/shawn/Documents/my_game_console/build/CMakeFiles/ncurses-arcade.dir/DependInfo.cmake "--color=$(COLOR)" ncurses-arcade
+	cd /home/shawn/my_game_console/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shawn/my_game_console /home/shawn/my_game_console /home/shawn/my_game_console/build /home/shawn/my_game_console/build /home/shawn/my_game_console/build/CMakeFiles/ncurses-arcade.dir/DependInfo.cmake "--color=$(COLOR)" ncurses-arcade
 .PHONY : CMakeFiles/ncurses-arcade.dir/depend
 

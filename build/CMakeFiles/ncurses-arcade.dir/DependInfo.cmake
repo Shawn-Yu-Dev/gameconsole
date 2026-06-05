@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shawn/Documents/my_game_console/src/ncurses-arcade-single.c" "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o" "gcc" "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o.d"
-  "" "/home/shawn/Documents/my_game_console/run/ncurses-arcade" "gcc" "CMakeFiles/ncurses-arcade.dir/link.d"
+  "/home/shawn/my_game_console/src/ncurses-arcade-single.c" "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o" "gcc" "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o.d"
+  "" "/home/shawn/my_game_console/run/ncurses-arcade" "gcc" "CMakeFiles/ncurses-arcade.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

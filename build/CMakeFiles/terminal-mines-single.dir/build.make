@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shawn/Documents/my_game_console
+CMAKE_SOURCE_DIR = /home/shawn/my_game_console
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shawn/Documents/my_game_console/build
+CMAKE_BINARY_DIR = /home/shawn/my_game_console/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/terminal-mines-single.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/terminal-mines-single.dir/codegen:
 .PHONY : CMakeFiles/terminal-mines-single.dir/codegen
 
 CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o: CMakeFiles/terminal-mines-single.dir/flags.make
-CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o: /home/shawn/Documents/my_game_console/src/terminal-mines-single.c
+CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o: /home/shawn/my_game_console/src/terminal-mines-single.c
 CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o: CMakeFiles/terminal-mines-single.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shawn/Documents/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o -MF CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o.d -o CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o -c /home/shawn/Documents/my_game_console/src/terminal-mines-single.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shawn/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o -MF CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o.d -o CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o -c /home/shawn/my_game_console/src/terminal-mines-single.c
 
 CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shawn/Documents/my_game_console/src/terminal-mines-single.c > CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shawn/my_game_console/src/terminal-mines-single.c > CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.i
 
 CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shawn/Documents/my_game_console/src/terminal-mines-single.c -o CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shawn/my_game_console/src/terminal-mines-single.c -o CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.s
 
 # Object files for target terminal-mines-single
 terminal__mines__single_OBJECTS = \
@@ -93,17 +93,17 @@ terminal__mines__single_OBJECTS = \
 # External object files for target terminal-mines-single
 terminal__mines__single_EXTERNAL_OBJECTS =
 
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/build.make
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/compiler_depend.ts
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: /usr/lib/libcurses.so
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: /usr/lib/libform.so
-/home/shawn/Documents/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shawn/Documents/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/shawn/Documents/my_game_console/run/terminal-mines-single"
+/home/shawn/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o
+/home/shawn/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/build.make
+/home/shawn/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/compiler_depend.ts
+/home/shawn/my_game_console/run/terminal-mines-single: /usr/lib/libcurses.so
+/home/shawn/my_game_console/run/terminal-mines-single: /usr/lib/libform.so
+/home/shawn/my_game_console/run/terminal-mines-single: CMakeFiles/terminal-mines-single.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shawn/my_game_console/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/shawn/my_game_console/run/terminal-mines-single"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/terminal-mines-single.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/terminal-mines-single.dir/build: /home/shawn/Documents/my_game_console/run/terminal-mines-single
+CMakeFiles/terminal-mines-single.dir/build: /home/shawn/my_game_console/run/terminal-mines-single
 .PHONY : CMakeFiles/terminal-mines-single.dir/build
 
 CMakeFiles/terminal-mines-single.dir/clean:
@@ -111,6 +111,6 @@ CMakeFiles/terminal-mines-single.dir/clean:
 .PHONY : CMakeFiles/terminal-mines-single.dir/clean
 
 CMakeFiles/terminal-mines-single.dir/depend:
-	cd /home/shawn/Documents/my_game_console/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shawn/Documents/my_game_console /home/shawn/Documents/my_game_console /home/shawn/Documents/my_game_console/build /home/shawn/Documents/my_game_console/build /home/shawn/Documents/my_game_console/build/CMakeFiles/terminal-mines-single.dir/DependInfo.cmake "--color=$(COLOR)" terminal-mines-single
+	cd /home/shawn/my_game_console/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shawn/my_game_console /home/shawn/my_game_console /home/shawn/my_game_console/build /home/shawn/my_game_console/build /home/shawn/my_game_console/build/CMakeFiles/terminal-mines-single.dir/DependInfo.cmake "--color=$(COLOR)" terminal-mines-single
 .PHONY : CMakeFiles/terminal-mines-single.dir/depend
 

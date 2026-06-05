@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ncurses-arcade.dir/link.d"
-  "/home/shawn/Documents/my_game_console/run/ncurses-arcade"
-  "/home/shawn/Documents/my_game_console/run/ncurses-arcade.pdb"
+  "/home/shawn/my_game_console/run/ncurses-arcade"
+  "/home/shawn/my_game_console/run/ncurses-arcade.pdb"
   "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o"
   "CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o.d"
 )

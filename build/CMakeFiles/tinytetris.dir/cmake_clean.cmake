@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tinytetris.dir/link.d"
-  "/home/shawn/Documents/my_game_console/run/tinytetris"
-  "/home/shawn/Documents/my_game_console/run/tinytetris.pdb"
+  "/home/shawn/my_game_console/run/tinytetris"
+  "/home/shawn/my_game_console/run/tinytetris.pdb"
   "CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o"
   "CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o.d"
 )

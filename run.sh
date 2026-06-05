@@ -10,3 +10,5 @@ rm -rf build run
 mkdir build && cd build
 cmake ..
 cmake --build . --parallel $(nproc)
+
+echo "所有 4 款游戏编译打包成功！"

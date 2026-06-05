@@ -1,15 +1,15 @@
 # 🕹️ My Game Console
 
-
-一个基于 C++ 和 CMake 构建的轻量级游戏控制台项目。本项目的目标是在 Linux 终端环境下实现高性能、低延迟的游戏逻辑与渲染框架。
+一个基于 C++、Python 和 CMake 构建的轻量级 Linux 终端游戏控制台。本项目通过 Python 构建交互主菜单，直接调用底层高性能的 C++ 原生终端游戏，实现低延迟的游戏逻辑与渲染。
 
 ---
 
 ## 🚀 功能特性
 
-- **跨平台编译**：基于 CMake 构建，完美适配 Arch Linux / Manjaro 等现代 Linux 发行版。
-- **自动化工作流**：内置一键编译、清理与运行的 Shell 脚本，免去繁琐的命令行操作。
-- **规范的版本管理**：使用 Git Tag 严格控制软件生命周期，支持稳定版本一键下载。
+- **精简链条**：Python 主菜单直接调度 C++ 游戏二进制文件，无多余中间件，运行高效。
+- **干净整洁**：游戏启动与退出实现无缝全屏切换，退出游戏自动擦除残余画面。
+- **一键构建**：内置自动化编译脚本，自动处理 CMake 依赖与二进制导出。
+- **规范管理**：使用 Git Tag 严格控制软件生命周期，缓存文件（`build/`）全面本地隔离。
 
 ---
 
@@ -17,12 +17,12 @@
 
 ```text
 my_game_console/
-├── build/             # 编译生成目录（已在 .gitignore 中忽略）
-├── src/               # 游戏核心源代码目录
-│   └──                # 游戏源码存放处
-├── CMakeLists.txt     # CMake 配置文件
-├── run.sh             # 一键编译并运行脚本
-├── main.sh            # 核心启动脚本
+├── build/             # CMake 编译临时催化目录（已忽略）
+├── run/               # 编译生成的 C++ 游戏二进制目录
+├── src/               # 游戏核心 C++ 源代码目录
+├── CMakeLists.txt     # CMake 编译配置文件
+├── run.sh             # 一键构建与编译脚本
+├── main.py            # 游戏控制台 Python 核心启动脚本
 └── README.md          # 项目自述文件（本文件）
 ```
 
@@ -30,11 +30,11 @@ my_game_console/
 
 ## 🛠️ 环境依赖
 
-在运行和开发本项目之前，请确保你的系统（推荐 Manjaro/Arch Linux）已安装以下基础开发工具：
+在编译和运行本项目之前，请确保你的系统（推荐 Arch / Manjaro 或其他 Linux 发行版）已安装以下基础开发工具：
 
 ```bash
-# 安装基础编译工具链与 CMake
-sudo pacman -S base-devel cmake git
+# Arch / Manjaro 安装基础编译工具链与 CMake
+sudo pacman -S base-devel cmake git python
 ```
 
 ---
@@ -49,18 +49,22 @@ git clone git@github.com:Shawn-Yu-Dev/gameconsole.git
 cd gameconsole
 ```
 
-### 2. 给脚本赋予执行权限（首次运行时需要）
+### 2. 赋予脚本与程序执行权限（首次需要）
 ```bash
-chmod +x run.sh main.sh
+chmod +x run.sh main.py
 ```
 
-### 3. 一键编译
+### 3. 一键编译 C++ 游戏
+运行编译脚本，它会自动创建 `build/` 目录，并将编译好的游戏二进制文件导出到 `run/` 目录中：
 ```bash
 ./run.sh
 ```
 
-> **提示**：`run.sh` 会自动检测并创建 `build` 文件夹，执行 `cmake ..` 和 `make`，最后自动运行生成的可执行程序。
->          `run.sh` 只会编译，如需运行请执行 `./main.sh`
+### 4. 启动游戏控制台
+编译完成后，直接运行 Python 核心脚本启动控制台：
+```bash
+python3 main.py
+```
 
 ---
 
@@ -68,7 +72,7 @@ chmod +x run.sh main.sh
 
 本项目遵循语义化版本（Semantic Versioning）规范：
 - 正式稳定版（如 `v1.0.0`）会作为 **Latest Release** 发布在 GitHub 上。
-- 所有的编译缓存（`build/`）均已通过 `.gitignore` 规则进行本地隔离，确保仓库代码的纯净性。
+- 欢迎提交 Issue 或 Pull Request 来为控制台添加更多有趣的 C++ 终端游戏！
 
 ---
 

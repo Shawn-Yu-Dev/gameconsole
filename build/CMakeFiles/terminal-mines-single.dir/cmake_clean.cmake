@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/terminal-mines-single.dir/link.d"
-  "/home/shawn/Documents/my_game_console/run/terminal-mines-single"
-  "/home/shawn/Documents/my_game_console/run/terminal-mines-single.pdb"
+  "/home/shawn/my_game_console/run/terminal-mines-single"
+  "/home/shawn/my_game_console/run/terminal-mines-single.pdb"
   "CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o"
   "CMakeFiles/terminal-mines-single.dir/src/terminal-mines-single.c.o.d"
 )

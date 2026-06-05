@@ -1,5 +1,5 @@
 CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.o: \
- /home/shawn/Documents/my_game_console/src/ncurses-arcade-single.c \
+ /home/shawn/my_game_console/src/ncurses-arcade-single.c \
  /usr/include/stdc-predef.h /usr/include/curses.h \
  /usr/include/ncurses_dll.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \

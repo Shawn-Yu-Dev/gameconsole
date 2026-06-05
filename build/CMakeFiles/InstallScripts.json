@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/shawn/Documents/my_game_console/build/cmake_install.cmake"
+		"/home/shawn/my_game_console/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

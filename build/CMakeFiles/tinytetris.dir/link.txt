@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/tinytetris.dir/link.d CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o -o /home/shawn/Documents/my_game_console/run/tinytetris  -lcurses -lform
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/tinytetris.dir/link.d CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o -o /home/shawn/my_game_console/run/tinytetris  -lcurses -lform

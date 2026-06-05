@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shawn/Documents/my_game_console
+CMAKE_SOURCE_DIR = /home/shawn/my_game_console
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shawn/Documents/my_game_console/build
+CMAKE_BINARY_DIR = /home/shawn/my_game_console/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shawn/Documents/my_game_console/build/CMakeFiles /home/shawn/Documents/my_game_console/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shawn/my_game_console/build/CMakeFiles /home/shawn/my_game_console/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shawn/Documents/my_game_console/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shawn/my_game_console/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -155,6 +155,19 @@ ncurses-arcade/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncurses-arcade.dir/build.make CMakeFiles/ncurses-arcade.dir/build
 .PHONY : ncurses-arcade/fast
 
+#=============================================================================
+# Target rules for targets named nsnake
+
+# Build rule for target.
+nsnake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nsnake
+.PHONY : nsnake
+
+# fast build rule for target.
+nsnake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nsnake.dir/build.make CMakeFiles/nsnake.dir/build
+.PHONY : nsnake/fast
+
 src/ncurses-arcade-single.o: src/ncurses-arcade-single.c.o
 .PHONY : src/ncurses-arcade-single.o
 
@@ -178,6 +191,30 @@ src/ncurses-arcade-single.s: src/ncurses-arcade-single.c.s
 src/ncurses-arcade-single.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncurses-arcade.dir/build.make CMakeFiles/ncurses-arcade.dir/src/ncurses-arcade-single.c.s
 .PHONY : src/ncurses-arcade-single.c.s
+
+src/nsnake.o: src/nsnake.cpp.o
+.PHONY : src/nsnake.o
+
+# target to build an object file
+src/nsnake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nsnake.dir/build.make CMakeFiles/nsnake.dir/src/nsnake.cpp.o
+.PHONY : src/nsnake.cpp.o
+
+src/nsnake.i: src/nsnake.cpp.i
+.PHONY : src/nsnake.i
+
+# target to preprocess a source file
+src/nsnake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nsnake.dir/build.make CMakeFiles/nsnake.dir/src/nsnake.cpp.i
+.PHONY : src/nsnake.cpp.i
+
+src/nsnake.s: src/nsnake.cpp.s
+.PHONY : src/nsnake.s
+
+# target to generate assembly for a file
+src/nsnake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nsnake.dir/build.make CMakeFiles/nsnake.dir/src/nsnake.cpp.s
+.PHONY : src/nsnake.cpp.s
 
 src/terminal-mines-single.o: src/terminal-mines-single.c.o
 .PHONY : src/terminal-mines-single.o
@@ -236,11 +273,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ncurses-arcade"
+	@echo "... nsnake"
 	@echo "... terminal-mines-single"
 	@echo "... tinytetris"
 	@echo "... src/ncurses-arcade-single.o"
 	@echo "... src/ncurses-arcade-single.i"
 	@echo "... src/ncurses-arcade-single.s"
+	@echo "... src/nsnake.o"
+	@echo "... src/nsnake.i"
+	@echo "... src/nsnake.s"
 	@echo "... src/terminal-mines-single.o"
 	@echo "... src/terminal-mines-single.i"
 	@echo "... src/terminal-mines-single.s"

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shawn/Documents/my_game_console/src/tinytetris.cpp" "CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o" "gcc" "CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o.d"
-  "" "/home/shawn/Documents/my_game_console/run/tinytetris" "gcc" "CMakeFiles/tinytetris.dir/link.d"
+  "/home/shawn/my_game_console/src/tinytetris.cpp" "CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o" "gcc" "CMakeFiles/tinytetris.dir/src/tinytetris.cpp.o.d"
+  "" "/home/shawn/my_game_console/run/tinytetris" "gcc" "CMakeFiles/tinytetris.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
